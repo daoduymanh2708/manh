@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From demo</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body class="container">
+    <h1>ĐĂNG KÝ</h1>
+    <div class='form-control'>
+        <form>
+            <div class='mb-4'>
+                <label for="username" class='form-label fw-bold'>Tên đăng nhập</label>
+                <input id='username' type="text" class="form-control" style="display: block;"
+                    placeholder="Vui lòng nhập tên đăng nhập">
+                <small id='username-err' class='text-danger'></small>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="form-label fw-bold">Password</label>
+                <input id='password' type="password" class="form-control">
+                <small id='password-err' class='text-danger'></small>
+            </div>
+            <div class="mb-4">
+                <label for="password2" class="form-label fw-bold">Nhập lại Password</label>
+                <input id='password2' type="password" class="form-control">
+                <small id='password2-err' class='text-danger'></small>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="form-label fw-bold">Email</label>
+                <input id='email' type="email" class="form-control">
+                <small id='email-err' class='text-danger'></small>
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="form-label fw-bold">SĐT</label>
+                <input id='phone' type="text" class="form-control">
+                <small id='phone-err' class='text-danger'></small>
+            </div>
+            <div class="mb-4">
+                <label for="gender" class="form-label fw-bold">Giới tính</label>
+                <select name="gender" id="gender" class="form-control">
+                    <option value="gender">---Chọn gới tính---</option>
+                    <option value="nam">Nam</option>
+                    <option value="nữ">Nữ</option>
+                    <option value="lgbt">LGBT</option>
+                </select>
+                <small id='gender-err' class='text-danger'></small>
+            </div>
+            <div class="mb-4">
+                <label for="lever" class="form-label fw-bold">Lever</label>
+                <select name="lever" id="lever" class="form-control">
+                    <option value="lever">---Chọn lever---</option>
+                    <option value="trainee">Trainee</option>
+                    <option value="fresher">Fresher Developer</option>
+                    <option value="junior">Junior Developer</option>
+                    <option value="mid-level">Mid-level Developer</option>
+                    <option value="senior">Senior Developer</option>
+                    <option value="leader">Leader</option>
+                </select>
+                <small id='lever-err' class='text-danger'></small>
+            </div>
+            <button type="submit" class="btn btn-primary">Đăng ký</button>
+        </form>
+    </div>
+</body>
+<script src="/js/formdangky.js"></script>
+
+</html>

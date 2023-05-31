@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body >
+    
+    <h2>Login</h2>
+    <div class="container">
+        <div class= "form-control">
+    <form action="/action_page.php" method="post">
+        <div class="mb-4">
+            <label for="uname"class="from-label fw-bold">Username</label>
+            <input type="text" placeholder="Enter Username" name="uname" class="form-control" id="uname" required>
+        </div>
+        <div  class="mb-4">
+            <label for="psw" class="from-label fw-bold">Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" class="form-control" id="psw" required>
+        </div>
+        <div class="mb-4">
+            <button type="submit" class="btn btn-success">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" > Remember me
+            </label>
+        </div>
+        
+        <div class="mb-4">
+            <button type="button" class="btn btn-light">Cancel</button>
+            Forgot <a href="#">password?</a>
+       </div>
+    </form>
+        </div>
+    </div>
+
+</body>
+</html>

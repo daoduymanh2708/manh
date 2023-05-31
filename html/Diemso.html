@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập điểm học viên</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div class='container'>
+        <h2>Nhập điểm học viên</h2>
+        <div class='form-control'>
+            <form>
+                <div class='mb-2'>
+                    <label>Nhập tên học viên:</label>
+                    <input class="form-control" type="text" placeholder="vui lòng nhập tên học viên">
+                    <small class="text-danger " id='search-err'></small>
+                </div>
+                <div class="mb-3">
+                    <button id="btn1" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class='mb-3'>
+                    <label for="toan" class='form-label fw-bold'>Nhập điểm toán:</label>
+                    <input id="toan" class='form-control' type="text" placeholder="vui lòng nhập điểm học viên">
+                    <small class="text-danger" id="toan-err"></small>
+                </div>
+                <div class="mb-3">
+                    <label for="van" class='form-label fw-bold'>Nhập điểm văn:</label>
+                    <input id="van" type="text" class='form-control' placeholder="vui lòng nhập điểm học viên">
+                    <small class="text-danger" id="van-err"></small>
+                </div>
+                <div class='mb-3'>
+                    <label for="anh" class='form-label fw-bold'>Nhập điểm anh:</label>
+                    <input id='anh' type="text" class='form-control' placeholder="vui lòng nhập điểm học viên">
+                    <small class="text-danger" id="anh-err"></small>
+                </div>
+                <button class='btn btn-primary' id="btn2">Thêm</button>
+                <a href="./index.html" class='btn btn-secondary'>Hủy</a>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="/js/diemso.js"></script>
+
+</html>

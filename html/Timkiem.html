@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm kiếm</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <h2>Tìm kiếm học viên</h2>
+    <div class="container">
+        <form>
+            <div class="form-control">
+                <div class="mb-4">
+                    <label for="search" class="form-label fw-bold">Nhập tên tìm kiếm:</label>
+                    <input type="text" class="form-control" style="display: block;" placeholder="vui lòng nhập hv">
+                    <small id="search-err"></small>
+                </div>
+                <div class="mb-4">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <a href="./index.html" class="btn btn-secondary"><i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <div class="mb-3">
+                    <table class="table table-warning">
+                        <thead>
+                            <tr>
+                                <th>Họ và tên</th>
+                                <th>SĐT</th>
+                                <th>Địa chỉ</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="/js/timkiem.js"></script>
+
+</html>
